@@ -26,7 +26,7 @@ public class GameHarness {
         while (loop) {
             System.out.println();
             hero.printDetails();
-            System.out.println("Make a choice:\n0. Exit game\n1. Read a book\n2. Use a skill");
+            System.out.println("Make a choice:\n0. Exit game\n1. Read a book\n2. Use a skill\n3. forget skill");
             try {
                 int action = Integer.parseInt(scanner.nextLine());
                 switch (action) {
@@ -40,6 +40,9 @@ public class GameHarness {
 
                     case 2:
                         useSkill();
+                        break;
+                    case 3:
+                        forgetSkill();
                         break;
 
                     default:
@@ -58,6 +61,11 @@ public class GameHarness {
         String skillName = scanner.nextLine().trim();
         hero.useSkill(skillName);
     }
+    
+    private static void forgetSkill(){
+      System.out.println(hero.getName() + " has forgtten: " + hero.getSkill());
+      hero.forgetSkill();
+  }
 
     private static void readBook() {
         System.out.println("Choose a book");

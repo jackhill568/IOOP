@@ -1,0 +1,93 @@
+
+
+------GAMEHARNESS TRACE------
+
+Running GameHarness...
+Name your hero! (default: Rowan)
+jack
+
+Hero name: jack
+current skill: None
+current level: 1
+Make a choice:
+0. Exit game
+1. Read a book
+2. Use a skill
+3. forget skill
+1
+Choose a book
+1. title: Sword Mastery
+author: K. Steel
+number of pages: 250
+skill: Sword Fighting
+required level to read: 1
+2. title: Herbal Remedies
+author: L. Green
+number of pages: 180
+skill: Healing
+required level to read: 1
+3. title: Secrets of the Arcane
+author: M. Rune
+number of pages: 320
+skill: Spellcasting
+required level to read: 1
+2
+jack has read Herbal Remedies and now knows: Healing
+
+Hero name: jack
+current skill: Healing
+current level: 2
+Make a choice:
+0. Exit game
+1. Read a book
+2. Use a skill
+3. forget skill
+2
+Enter the skill to use
+Healing
+jack uses Healing
+
+Hero name: jack
+current skill: Healing
+current level: 2
+Make a choice:
+0. Exit game
+1. Read a book
+2. Use a skill
+3. forget skill
+3
+jack has forgtten: Healing
+
+Hero name: jack
+current skill: None
+current level: 2
+Make a choice:
+0. Exit game
+1. Read a book
+2. Use a skill
+3. forget skill
+2
+Enter the skill to use
+Healing
+jack has no skill
+
+Hero name: jack
+current skill: None
+current level: 2
+Make a choice:
+0. Exit game
+1. Read a book
+2. Use a skill
+3. forget skill
+0
+------END TRACE------
+
+
+
+Hero.readBook()
+
+The function starts with a conditional statement that checks if the heros level is high enough to read the book, if not then the program will output that the heros level is not high enough and do nothing else
+otherwise the heros current skill is set to the skill of the book using the getSkill method from the book class
+then it outputs that the hero has read the book and what skill it has gained
+finally the heros level is incremented by 1 using getters and setters of the hero class
+
