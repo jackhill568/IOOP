@@ -11,6 +11,12 @@ class SkillBook extends Book {
     return super.toString() + "\nSkill to Learn: " + this.skillToLearn;
   }
 
+  @Override
+  public void doRead(Hero hero) {
+    System.out.println(hero.getName() + " has read " + this.title + " and learnt " + this.getSkillToLearn());
+    hero.setCurrentSkill(this.skillToLearn);
+  }
+
   SkillBook(String title, String author, int numPages, String skillToLearn) {
 
     super(title, author, numPages);

@@ -30,4 +30,7 @@ public class Book {
     System.out.println(this.toString());
   }
 
+  public void doRead(Hero hero) {
+    System.out.println(hero.getName() + " has read" + this.title);
+  }
 }

@@ -1,0 +1,4 @@
+
+
+
+My journal implementation works using a list of strings, length 5. I add a class attribute to the hero class that acts as a pointer to the top of the journal, it is initialised as -1. The function addJounralFact returns a boolean corrisponding to whether it was succsesful in adding the journal entry. If it was succsesful and the journal is not full it increments the pointer. To output the journal is use the pointer again as the upper limit in a for loop. Before outputting anything the printJournal function will also check to make sure that the pointer is not -1 if so it will print (none)

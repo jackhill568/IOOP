@@ -44,8 +44,7 @@ public class Hero {
   }
 
   public void readBook(Book book) {
-    currentSkill = book.getSkillToLearn();
-    System.out.println(this.name + " has read " + book.getTitle() + " and now knows " + currentSkill);
+    book.doRead(this);
   }
 
   public void useSkill(String skillName) {
