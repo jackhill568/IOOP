@@ -1,0 +1,47 @@
+
+Bug 1: error in Hero class attributes
+-Source file: Hero.java
+-Issue: the Hero attribute overwrites the name attribute from the super class
+-fix: remove the definition of the name attribute in the hero class
+  delete the first line in the class
+
+Bug 2: error in Character takeDamage
+-Source: Character.java
+-Issue: the takeDamage function will let the Characters hit points go below 0
+-fix: add a conditional statement to stop this from happening
+
+Bug 3: error in attack
+source file: Hero.java
+-Issue: the attack function doesnt call takeDamage in the correct place which means sometimes takDamage isnt called when it should be 
+-fix: move the call to the bottom of the function and dont call it anywhere else
+
+Bug 4: error in isAlive
+source file: Character.java
+-Issue: the is isAlive function will return true even if the hitPoints are 0
+-fix: change the eqaulity symbol to be greater than not greater than or equal too.
+
+Bug 5: error in Character Constructor
+source file:Character.java
+-Issue: the Constructor does not check if its being initilised with 0 hitPoints
+-fix: add conditional to check that the hit points is not 0:
+
+Bug 6:
+Source file: Hero.java (the constructor)
+- Issue: Hero constructor does not explicitly call the super-class constructor, and since there is
+no suitable constructor available, the code does not compile
+- Fix: replace the first two lines of the Hero constructor with the following:
+super(name, 12);
+
+
+GameHarness-------------------
+
+Bug 1: Incorrect logic in doBattle
+source file: GameHarness.java
+Issue: the logic in the condition  is wrong and will allow a dead enemy to be attacked
+fix: change to do logical and instead of or
+
+Bug 2: logic issue in doBattle
+source file: GameHarness.java
+Issue: the order of conditional statments is wrong causing the enemy to always attack first
+fix: swap the statments around so that the character attacks first
+
