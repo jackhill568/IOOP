@@ -1,0 +1,251 @@
+TRACE:
+
+
+Name your hero! (default: Rowan)
+jack
+Hero is now at location (4,4)
+
+4,4: A hero called jack, skill [], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+3
+(0,4): [Gobby3]         , (1,4): []               , (2,4): []               , (3,4): []               , *(4,4): []               , 
+(0,3): []               , (1,3): []               , (2,3): []               , (3,3): [History of the w, (4,3): []               , 
+(0,2): [Gobby2]         , (1,2): []               , (2,2): [Secrets of the A, (3,2): [Gobby5]         , (4,2): []               , 
+(0,1): []               , (1,1): [Herbal Remedies], (2,1): []               , (3,1): []               , (4,1): []               , 
+(0,0): [Sword Mastery, G, (1,0): []               , (2,0): []               , (3,0): [Gobby4]         , (4,0): [Gobby6]         , 
+
+4,4: A hero called jack, skill [], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+4
+Enter move direction (N, E, S, W)
+W
+Hero is now at location (3,4)
+
+3,4: A hero called jack, skill [], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+4
+Enter move direction (N, E, S, W)
+W
+Hero is now at location (2,4)
+
+2,4: A hero called jack, skill [], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+3
+(0,4): [Gobby3]         , (1,4): []               , *(2,4): []               , (3,4): []               , (4,4): []               , 
+(0,3): []               , (1,3): []               , (2,3): []               , (3,3): [History of the w, (4,3): []               , 
+(0,2): [Gobby2]         , (1,2): []               , (2,2): [Secrets of the A, (3,2): [Gobby5]         , (4,2): []               , 
+(0,1): []               , (1,1): [Herbal Remedies], (2,1): []               , (3,1): []               , (4,1): []               , 
+(0,0): [Sword Mastery, G, (1,0): []               , (2,0): []               , (3,0): [Gobby4]         , (4,0): [Gobby6]         , 
+
+2,4: A hero called jack, skill [], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+4
+Enter move direction (N, E, S, W)
+W
+Hero is now at location (1,4)
+
+1,4: A hero called jack, skill [], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+4
+Enter move direction (N, E, S, W)
+S
+Hero is now at location (1,3)
+
+1,3: A hero called jack, skill [], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+4
+Enter move direction (N, E, S, W)
+S
+Hero is now at location (1,2)
+
+1,2: A hero called jack, skill [], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+3
+(0,4): [Gobby3]         , (1,4): []               , (2,4): []               , (3,4): []               , (4,4): []               , 
+(0,3): []               , (1,3): []               , (2,3): []               , (3,3): [History of the w, (4,3): []               , 
+(0,2): [Gobby2]         , *(1,2): []               , (2,2): [Secrets of the A, (3,2): [Gobby5]         , (4,2): []               , 
+(0,1): []               , (1,1): [Herbal Remedies], (2,1): []               , (3,1): []               , (4,1): []               , 
+(0,0): [Sword Mastery, G, (1,0): []               , (2,0): []               , (3,0): [Gobby4]         , (4,0): [Gobby6]         , 
+
+1,2: A hero called jack, skill [], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+4
+Enter move direction (N, E, S, W)
+S
+Hero is now at location (1,1)
+jack has read Herbal Remedies and learns the skill: HEALING
+
+1,1: A hero called jack, skill [HEALING], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+4
+Enter move direction (N, E, S, W)
+S
+Hero is now at location (1,0)
+
+1,0: A hero called jack, skill [HEALING], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+4
+Enter move direction (N, E, S, W)
+W
+Hero is now at location (0,0)
+jack has read Sword Mastery and learns the skill: SWORD_FIGHTING
+asdas
+jack punches Gobby1 for 2 damage!
+Gobby1 swings a club at jack for 3 damage!
+jack slashes Gobby1 for 8 damage!
+Enemy has been defeated!
+
+0,0: A hero called jack, skill [HEALING, SWORD_FIGHTING], hp 9
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+3
+(0,4): [Gobby3]         , (1,4): []               , (2,4): []               , (3,4): []               , (4,4): []               , 
+(0,3): []               , (1,3): []               , (2,3): []               , (3,3): [History of the w, (4,3): []               , 
+(0,2): [Gobby2]         , (1,2): []               , (2,2): [Secrets of the A, (3,2): [Gobby5]         , (4,2): []               , 
+(0,1): []               , (1,1): [Herbal Remedies], (2,1): []               , (3,1): []               , (4,1): []               , 
+*(0,0): [Sword Mastery, G, (1,0): []               , (2,0): []               , (3,0): [Gobby4]         , (4,0): [Gobby6]         , 
+
+0,0: A hero called jack, skill [HEALING, SWORD_FIGHTING], hp 9
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+4
+Enter move direction (N, E, S, W)
+N
+Hero is now at location (0,1)
+
+0,1: A hero called jack, skill [HEALING, SWORD_FIGHTING], hp 9
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+4
+Enter move direction (N, E, S, W)
+N
+Hero is now at location (0,2)
+asdas
+jack punches Gobby2 for 2 damage!
+Gobby2 swings a club at jack for 3 damage!
+jack punches Gobby2 for 2 damage!
+Gobby2 swings a club at jack for 3 damage!
+jack punches Gobby2 for 2 damage!
+Gobby2 swings a club at jack for 3 damage!
+
+0,2: A hero called jack, skill [HEALING, SWORD_FIGHTING], hp 0
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+1
+jack uses HEALING
+
+0,2: A hero called jack, skill [HEALING, SWORD_FIGHTING], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+3
+(0,4): [Gobby3]         , (1,4): []               , (2,4): []               , (3,4): []               , (4,4): []               , 
+(0,3): []               , (1,3): []               , (2,3): []               , (3,3): [History of the w, (4,3): []               , 
+*(0,2): [Gobby2]         , (1,2): []               , (2,2): [Secrets of the A, (3,2): [Gobby5]         , (4,2): []               , 
+(0,1): []               , (1,1): [Herbal Remedies], (2,1): []               , (3,1): []               , (4,1): []               , 
+(0,0): [Sword Mastery, G, (1,0): []               , (2,0): []               , (3,0): [Gobby4]         , (4,0): [Gobby6]         , 
+
+0,2: A hero called jack, skill [HEALING, SWORD_FIGHTING], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+4
+Enter move direction (N, E, S, W)
+N
+Hero is now at location (0,3)
+
+0,3: A hero called jack, skill [HEALING, SWORD_FIGHTING], hp 12
+Make a choice:
+0. Exit game
+1. Heal
+2. Print journal
+3. Print world
+4. Move
+4
+Enter move direction (N, E, S, W)
+N
+Hero is now at location (0,4)
+asdas
+jack slashes Gobby3 for 8 damage!
+Gobby3 swings a club at jack for 3 damage!
+jack slashes Gobby3 for 8 damage!
+Enemy has been defeated!
+
+0,4: A hero called jack, skill [HEALING, SWORD_FIGHTING], hp 9
