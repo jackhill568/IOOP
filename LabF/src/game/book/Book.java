@@ -2,6 +2,7 @@ package game.book;
 
 import game.character.Hero;
 import game.core.Interactable;
+import java.util.Objects;
 
 public class Book implements Interactable {
     private String title;
@@ -44,6 +45,20 @@ public class Book implements Interactable {
     @Override
     public String toString() {
         return "'" + title + "' by " + author + " (" + numPages + "pp)";
+    }
+    
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj instanceof Book){
+            Book o = (Book) obj;
+            return Objects.equals(this.title, o.getTitle()) && Objects.equals(this.author, o.getAuthor());
+        }
+        return false;
+    }
+    @Override
+    public int hashCode() {
+        return Objects.hash(this.title, this.author);
     }
 
     public void interact (Hero hero) {

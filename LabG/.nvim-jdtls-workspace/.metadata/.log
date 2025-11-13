@@ -1,0 +1,365 @@
+!SESSION 2025-11-13 11:28:35.272 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.8
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ja/IOOP/LabG/.nvim-jdtls-workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:39.137
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:39.345
+!MESSAGE Started org.eclipse.buildship.core 163ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:39.347
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:39.947
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:40.262
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:40.270
+!MESSAGE Initializing Java Language Server 1.52.0.202510301627
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:42.219
+!MESSAGE ProjectRegistryRefreshJob finished 2871ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-11-13 11:28:42.319
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:175)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:99)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:72)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:286)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Contains: Cannot extract bundle symbolicName or version /home/ja/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.plugin-0.43.1.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/jacocoagent.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-api_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-engine_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-migrationsupport_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-params_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-commons_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-engine_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-launcher_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-runner_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-api_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-commons_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-engine_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-vintage-engine_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.apiguardian.api_1.1.2.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit4.runtime_1.3.100.v20231214-1952.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit5.runtime_1.1.300.v20231214-1952.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.jacoco.core_0.8.14.202510111229.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.opentest4j_1.3.0.jar
+java.nio.file.NoSuchFileException: /home/ja/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.plugin-0.43.1.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/jacocoagent.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-api_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-engine_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-migrationsupport_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-params_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-commons_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-engine_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-launcher_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-runner_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-api_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-commons_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-engine_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-vintage-engine_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.apiguardian.api_1.1.2.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit4.runtime_1.3.100.v20231214-1952.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit5.runtime_1.1.300.v20231214-1952.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.jacoco.core_0.8.14.202510111229.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.opentest4j_1.3.0.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.getBundleInfo(BundleUtils.java:330)
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:122)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:99)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:72)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:286)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2025-11-13 11:28:42.321
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2025-11-13 11:28:42.321
+!MESSAGE Cannot extract bundle symbolicName or version /home/ja/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.plugin-0.43.1.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/jacocoagent.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-api_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-engine_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-migrationsupport_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-params_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-commons_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-engine_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-launcher_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-runner_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-api_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-commons_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-engine_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-vintage-engine_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.apiguardian.api_1.1.2.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit4.runtime_1.3.100.v20231214-1952.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit5.runtime_1.1.300.v20231214-1952.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.jacoco.core_0.8.14.202510111229.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.opentest4j_1.3.0.jar
+!STACK 0
+java.nio.file.NoSuchFileException: /home/ja/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.plugin-0.43.1.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/com.microsoft.java.test.runner-jar-with-dependencies.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/jacocoagent.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-api_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-engine_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-migrationsupport_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-jupiter-params_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-commons_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-engine_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-launcher_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-runner_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-api_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-commons_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-platform-suite-engine_1.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/junit-vintage-engine_5.11.0.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.apiguardian.api_1.1.2.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit4.runtime_1.3.100.v20231214-1952.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.eclipse.jdt.junit5.runtime_1.1.300.v20231214-1952.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.jacoco.core_0.8.14.202510111229.jar
+/home/ja/.local/share/nvim/mason/packages/java-test/extension/server/org.opentest4j_1.3.0.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:316)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:255)
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.getBundleInfo(BundleUtils.java:330)
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:122)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:99)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:72)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:286)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:42.362
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:42.364
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.getTroubleshootingInfo, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:42.365
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:42.367
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:42.369
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:42.370
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:42.438
+!MESSAGE RepositoryRegistryUpdateJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:42.463
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:42.785
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:43.058
+!MESSAGE Workspace initialized in 624ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:43.112
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:43.268
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk-amd64 as 'JavaSE-21' environment (id:1763033322946)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:43.278
+!MESSAGE Setting /usr/lib/jvm/java-11-openjdk-amd64 as 'JavaSE-11' environment (id:/usr/lib/jvm/java-11-openjdk-amd64)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:43.282
+!MESSAGE Setting /usr/lib/jvm/java-17-openjdk-amd64 as 'JavaSE-17' environment (id:/usr/lib/jvm/java-17-openjdk-amd64)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:43.285
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:43.321
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:47.087
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-11-13 11:28:47.761
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:47.886
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:47.887
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:47.935
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:48.779
+!MESSAGE begin problem for /Character.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:48.787
+!MESSAGE 1 problems reported for /Character.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:28:48.790
+!MESSAGE Validated 1. Took 254 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:30:56.847
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:30:57.325
+!MESSAGE begin problem for /Character.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:30:57.326
+!MESSAGE 1 problems reported for /Character.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:30:57.327
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:34:51.248
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:34:51.722
+!MESSAGE begin problem for /Character.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:34:51.723
+!MESSAGE 1 problems reported for /Character.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:34:51.725
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:34:59.687
+!MESSAGE Reconciled 1. Took 99 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:34:59.764
+!MESSAGE Reconciled 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:34:59.886
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:34:59.946
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:00.430
+!MESSAGE begin problem for /Character.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:00.431
+!MESSAGE 2 problems reported for /Character.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:00.434
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:00.859
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:01.025
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:01.123
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:01.522
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:01.995
+!MESSAGE begin problem for /Character.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:01.996
+!MESSAGE 1 problems reported for /Character.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:01.997
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:03.084
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:03.511
+!MESSAGE begin problem for /Character.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:03.512
+!MESSAGE 1 problems reported for /Character.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:35:03.513
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:36:53.419
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:36:53.434
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:36:53.461
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-11-13 11:36:53.476
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

@@ -4,6 +4,6 @@ import game.character.Hero;
 
 public interface BookEffect {
 
-    public void apply (Hero hero);
+    public void apply (Hero hero) throws CursedBookException;
 
 }

@@ -1,16 +1,20 @@
 package game.character;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import game.book.Book;
+import game.book.CurseEffect;
+import game.book.CursedBookException;
 import game.core.Skill;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class Hero extends Character {
     private List<Skill> skills;
     private String[] journal;
     private int numJournalEntries;
     private int maxHitPoints;
+    private Set<Book> booksRead;
 
     public Hero(String name) {
         super(name, 12);
@@ -18,10 +22,7 @@ public class Hero extends Character {
         skills = new ArrayList<>();
         this.journal = new String[5];
         this.numJournalEntries = 0;
-    }
-
-    public String getName() {
-        return name;
+        this.booksRead = new HashSet<>();
     }
 
     public void setName(String name) {
@@ -52,8 +53,23 @@ public class Hero extends Character {
         }
     }
 
+    public void addToBooksRead(Book book) {
+        this.booksRead.add(book);
+    }
+
     public void readBook(Book book) {
-        book.doRead(this);
+    	try {
+	        if (booksRead.contains(book) && book.getSecondEffect() != null){
+			    book.getSecondEffect().apply(this);   
+			}
+			book.getFirstEffect().apply(this);
+			this.booksRead.add(book);
+    	} catch (CursedBookException e) {
+            String[] possibleNames = {"Alice", "Bob", "Charlie", "Diana", "Ethan", "Fiona", "George", "Hannah", "Ian", "Julia", "Kevin",
+            						"Laura", "Michael", "Nina", "Oscar", "Paula", "Quinn", "Rachel", "Steve", "Tina"};
+            System.out.println("The hero has been cursed and forgetten their name");
+            this.name = possibleNames[(int)Math.random()*possibleNames.length];
+    	}
     }
 
     public void printJournal() {
@@ -92,9 +108,5 @@ public class Hero extends Character {
         }
     }
 
-    @Override
-    public void interact(Hero hero) {
-        System.out.println(this.name + " fist-bumps their fellow hero " + hero.getName());
-    }
 
 }

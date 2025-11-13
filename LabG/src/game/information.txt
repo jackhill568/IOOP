@@ -1,0 +1,8 @@
+To solve Task 2 i decided to move all the logic for interacting with an object from MovementAdapter.moveHero() to the 
+handleInteractions function in GameController. This 
+allows me to easily catch cursed book exceptions as
+all the logic is in the same place. This structure 
+also lets me easily select what to perfom after the user
+has decided to interact or not. I use the JOptionPane.showConfirmDialog 
+to get the user decision this outputs a 1 or 0 which i 
+can use for the selection.
