@@ -86,7 +86,6 @@ public class Hero extends Character {
     @Override
     public void attack(Character target) {
         int damage = 2; // base unskilled damage
-
         if (skills.contains(Skill.SPELLCASTING)) {
             damage = 10;
             System.out.println(name + " casts a fireball at " + target.name + " for " + damage + " damage!");

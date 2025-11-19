@@ -5,6 +5,7 @@ import game.core.Interactable;
 import java.util.Objects;
 
 public class Book implements Interactable {
+
     private String title;
     private String author;
     private int numPages;
